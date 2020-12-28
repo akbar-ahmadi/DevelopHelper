@@ -1,0 +1,1 @@
+sudo docker run -d --name postgresdb -e POSTGRES_PASSWORD=root -v /home/akbar/docker/volumes/postgres/data:/var/lib/postgresql/data  -v /home/akbar/docker/volumes/postgres/config:/etc/postgresql -p 5432:5432 postgres
